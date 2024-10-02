@@ -1,0 +1,41 @@
+/* src/pages/ChamadaAluno.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f3e5f5; /* Roxo claro */
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #6a1b9a; /* Roxo escuro */
+  }
+  
+  button {
+    width: 320px;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #8e24aa; /* Roxo médio */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #6a1b9a; /* Roxo mais escuro */
+  }
+  
+  button:last-of-type {
+    background-color: #d32f2f; /* Vermelho para Logout */
+  }
+  
+  button:last-of-type:hover {
+    background-color: #9a0007; /* Vermelho mais escuro */
+  }
+  

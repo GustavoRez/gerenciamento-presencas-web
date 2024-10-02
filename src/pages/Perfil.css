@@ -1,0 +1,33 @@
+/* src/pages/Perfil.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fffde7; /* Amarelo claro */
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #f9a825; /* Amarelo escuro */
+  }
+  
+  button {
+    width: 320px;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #fbc02d; /* Amarelo médio */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #f9a825; /* Amarelo mais escuro */
+  }
+  
